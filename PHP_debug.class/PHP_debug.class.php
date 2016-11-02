@@ -27,10 +27,10 @@ class PHP_debug {
 		$this->set_debug_var = $var;
 	}
 	/**
-	 * Função a qual recebe e retora as informações detalhadas da variavel recebida no teste, como por exemplo tempo de execução, uso de memória, tipo de variáel
+	 * Função a qual recebe e retorna as informações detalhadas da variavel recebida no teste, como por exemplo tempo de execução, uso de memória, tipo de variáel
 	 * @param mixed $variavel  Recebe a variavel, vetor que vai ser debugado, 
-	 * @param string|null $var_name Recebe a variavel e imprime seu respctivo nome.
-	 * @param bool|null $break Define se vai exexutar um break ou exit no final do debug
+	 * @param string|null $var_name Recebe a variavel e imprime seu respectivo nome.
+	 * @param bool|null $break Define se vai executar um break ou exit no final do debug
 	 * @return string Retorna as informações detalhadas da variavel recebida.
 	**/	
 	public function debug($variavel = null, $var_name = null, $break = null){		

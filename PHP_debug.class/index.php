@@ -15,12 +15,7 @@ $var->debug(12345, "name of var");
 $array = array('jujuba' => 'doce' , 'cafe'=> 'quente', 'carro' => 'sou pobre', 'sem chave' );
 $var->debug($array);
 
-
 // Class
 $var -> debug($var);
-
-
-
-
 
 ?>

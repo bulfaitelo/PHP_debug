@@ -13,7 +13,7 @@ $var = new PHP_debug();
 
 ## Parametros:
 
-A classe PHP_debug só tem o objeto [b]debug[/b] como publico então vamos os parametros:
+A classe PHP_debug só tem o objeto debug como publico então vamos os parametros:
 
 ```php
 $var = new PHP_debug();

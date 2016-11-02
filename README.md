@@ -10,8 +10,12 @@ A classe PHP_debug tem a função de debugar variáveis ou classes, assim inform
 instancie a classe PHP_debug(); 
 
 ```php
-// Caso queria desabilitar ela em todo o código basta indtanciar ela com o parametro false;
+// Debug ativo:
 $var = new PHP_debug();
+// Caso queria desabilitar ela em todo o código basta instanciar ela com o parâmetro false;
+// Debug Desabilitado
+$var = new PHP_debug(false);
+
 ```
 
 ## Parâmetros:
@@ -20,6 +24,8 @@ A classe PHP_debug só tem o objeto debug como publico então vamos os parametro
 
 ```php
 $var = new PHP_debug();
+
+
 
 // $variavel: é a variável a qual vai ser testada
 // $var_name: é o nome da variável, não é uma informação obrigatória

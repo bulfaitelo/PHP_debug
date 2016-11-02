@@ -1,6 +1,6 @@
 # PHP_debug
 
-A classe PHP_debug tem a função de debugar variaveis ou classes, assim informando o tamannho em memória, tempo de execução, linha que está executando o debug e seu respctivo arquivo. 
+A classe PHP_debug tem a função de debugar variáveis ou classes, assim informando o tamanho em memória, tempo de execução, linha que está executando o debug e seu respectivo arquivo. 
 
 ## Utilização:
 
@@ -11,16 +11,16 @@ instancie a classe PHP_debug();
 $var = new PHP_debug();
 ```
 
-## Parametros:
+## Parâmetros:
 
 A classe PHP_debug só tem o objeto debug como publico então vamos os parametros:
 
 ```php
 $var = new PHP_debug();
 
-// $variavel: é a variavel a qual vai ser testada
-// $var_name: é o nome da variavel, não é uma informação obrigatoria
-// $break: quando definida true ele faz com que o código de o break apos executa o debug
+// $variavel: é a variável a qual vai ser testada
+// $var_name: é o nome da variável, não é uma informação obrigatória
+// $break: quando definida true ele faz com que o código de o break apos executa o debug por padrão ela está com false
 
 debug($variavel = null, $var_name = null, $break = null);
 
